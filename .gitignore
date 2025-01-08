@@ -1,2 +1,6 @@
-.*
+
+
+.*  # MacOS
 !.gitignore
+/sam2/checkpoints
+/src
