@@ -1,6 +1,14 @@
+# 操作系统生成的文件
+.DS_Store
 
+# 忽略 /sam2/checkpoints 目录下所有 .pth 文件
+/sam2/checkpoints/*.pth
 
-.*  # MacOS
-!.gitignore
-/sam2/checkpoints
+# 忽略source
 /src
+
+# 忽略所有带legacy的文件
+*legacy*
+
+# 忽略所有带__pycache__文件
+*__pycache__*
