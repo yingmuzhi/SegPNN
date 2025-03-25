@@ -23,3 +23,10 @@ cd checkpoints && \
 ./download_ckpts.sh && \
 cd ..
 ```
+
+
+## framework
+
+1. put the origin data `/home/yingmuzhi/SegPNN/src/20250324/origin/JS WFA+PV 60X.tif` into origin folder.
+
+2. run `preprocess.py` to generate folder `output`
